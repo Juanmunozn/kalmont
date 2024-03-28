@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.stage {
+    background-color: white;
+    padding: 20px;
+    width: 30%; /* Adjust width to fit three columns on the page */
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.stage h2 {
+    color: #333;
+    text-align: center;
+}
+
+.stage p {
+    font-style: italic;
+    text-align: center;
+}
+
+.symptoms ul {
+    list-style: none;
+    padding: 0;
+}
+
+.symptoms li {
+    padding: 5px 0;
+}
+
+/* Background images for stages */
+.mild {
+    background-image: url('path-to-mild-hypothermia-image.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.moderate {

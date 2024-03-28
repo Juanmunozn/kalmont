@@ -1,0 +1,92 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    background: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.safety-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.safety-image {
+    max-width: 40%;
+    margin-right: 20px;
+}
+
+.safety-info {
+    text-align: left;
+    max-width: 50%;
+}
+
+.safety-info h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .safety-section {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .safety-image {
+        max-width: 80%;
+        margin: 0 auto 20px;
+    }
+
+    .safety-info {
+        max-width: 100%;
+    }
+}
+kalmontk
